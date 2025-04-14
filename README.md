@@ -1,3 +1,4 @@
+
 # ⚡ Windows RAM & Performance Optimizer | Clean, Kill, Boost
 
 > ⚠️ **Use at your own risk. For educational purposes only.**
@@ -5,6 +6,21 @@
 A powerful and lightweight Windows optimization tool for advanced users, gamers, and anyone suffering from lag or memory hogs. This script disables unnecessary services, cleans memory and temp files, and integrates with RAMMap64 to clear standby RAM.
 
 Ideal for **low-end systems**, **older laptops**, or **performance-hungry gaming rigs** like ASUS ROG.
+
+---
+
+## 🔽 Quick Start (Download & Run)
+
+1. 📦 [Download ZIP](https://github.com/PriyomSaha/windows-optimizer-script/archive/refs/heads/main.zip) of this repository.
+2. 🗂️ **Extract** the ZIP to a folder (e.g., `Windows-Optimizer`).
+3. ▶️ **Right-click** `setup.ps1` and select **Run with PowerShell**.
+4. ✅ When prompted with `Execution Policy Change`, choose **Yes to All (A)** to allow the script to run.
+5. 🧼 The script will **unblock all files** and start the optimizer silently in the background.
+
+> 🛑 **If PowerShell scripts are restricted**, or you skipped the prompt, run this command once in PowerShell:
+> ```powershell
+> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+> ```
 
 ---
 
@@ -22,34 +38,25 @@ Ideal for **low-end systems**, **older laptops**, or **performance-hungry gaming
 
 ## 📁 Folder Structure
 
-Your folder should look like this:
-
 ```
 .
 ├── RAMMap/                  # (Optional) Additional RAMMap files
-├── clear_ram_loop.bat       # Main optimization script with looping (Right click -> Run as admin)
-├── run_invisible.vbs        # VBScript launcher for silent background execution (Double click to execute)
+├── clear_ram_loop.bat       # Main optimization script with looping
+├── run_invisible.vbs        # VBScript launcher for silent background execution
 ├── RAMMap64.exe             # Download from Microsoft Sysinternals
-├── README.md                # This file
-├── LICENSE                  # MIT license
+├── setup.ps1                # NEW: PowerShell launcher to unblock & run everything
+├── README.md
+├── LICENSE
 ├── revert.bat               # (Optional) Undo script for updates
 └── screenshots/             # (Optional visuals)
 ```
 
 ---
 
-## ⚙️ How to Use
+## ⚙️ Manual Use (Alternative)
 
-1. 📄 Clone or download this repository.
-2. 💾 Download [RAMMap64](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap) (optional, as it's already included in the repository for convenience). However, if you'd like to verify its authenticity, feel free to download it directly from the official Microsoft Sysinternals site and place it in the same folder.
-3. ▶️ Double-click `run_invisible.vbs` for silent background execution.
-4. ✅ **Right-click** `clear_ram_loop.bat` or `.vbs` and select **Run as Administrator** _(IMPORTANT!)_
-
----
-
-### ⚠️ Run As Administrator
-
-> Always **right-click** the script or VBS launcher and select **Run as Administrator** to unleash the full power! Without Admin rights, many services and background tasks **won’t be stopped**.
+1. 💾 Download [RAMMap64](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap) (optional).
+2. ✅ **Right-click** `clear_ram_loop.bat` or `run_invisible.vbs` and choose **Run as Administrator**.
 
 ---
 
@@ -73,45 +80,26 @@ taskkill /f /im LenovoVantageService.exe
 
 ---
 
-## 🚨 Warning & Disclaimer
+## ⚠️ Important Notes & Disclaimer
 
-- ❗ **Disables Windows Updates** via Services, Registry, and Task Scheduler.
-- 🔐 Periodically re-enable updates manually to install security patches.
-- 💻 Intended for **personal** and **non-enterprise** systems.
-- 🤝 You're welcome to modify and use, but we take **no responsibility** for issues caused.
-- 🧑‍💼 Use responsibly and **only on systems you own or have permission to modify**.
-
----
-
-## ⚠️ Important Notes & Disclaimer (Detailed)
-
-- ❗ This script disables Windows Updates and modifies registry entries. We recommend enabling updates occasionally to ensure security patches and driver updates are installed.
-- 💻 Best used on non-enterprise, personal machines where update control is desired.
-- 🔐 You are responsible for any changes this script makes. Test on a non-critical system before applying to your main device.
-- 👨‍⚖️ For educational and performance tuning purposes only.
-- 🚫 Do not use this in a managed environment (e.g., office or school systems).
+- ❗ Disables Windows Updates and modifies registry entries.
+- 🔐 Periodically re-enable updates manually to stay secure.
+- 💻 Intended for personal, non-enterprise systems only.
+- 👨‍⚖️ Use responsibly on systems you own or have permission to modify.
+- ❌ Do not use on school, office, or government devices.
 
 ---
 
 ## ↩️ Undo / Revert Script
 
-To restore Windows Update, run:
+To restore Windows Update manually, run:
 
 ```cmd
 sc config wuauserv start= auto
 sc start wuauserv
 ```
 
-Or manually remove registry keys and re-enable scheduled tasks.
-
-Want a full `revert.bat`? It's included in the root folder for convenience (Always remember to Run as administrator).
-
----
-
-## 🌟 Screenshots
-
-_(Optional: Add before & after RAM usage images here)_
-![clear_ram_loop.bat UI](image.png)
+Or use the included `revert.bat` file (Run as Administrator).
 
 ---
 
@@ -121,11 +109,17 @@ _(Optional: Add before & after RAM usage images here)_
 
 ---
 
-### 💡 Tips
+## 🌟 Screenshots
 
-- 🧪 Run once per boot or let it run in loop mode.
-- 🕹️ Perfect for gaming sessions to free RAM.
-- 🧩 Customize background apps to kill for your specific setup.
+_Add before/after RAM usage screenshots here for better visual appeal._
+
+---
+
+## 💡 Tips
+
+- 🧪 Run once per boot or let it loop in background.
+- 🕹️ Perfect for freeing up RAM before gaming.
+- 🧩 Customize background apps to kill for your system.
 
 ---
 
@@ -139,6 +133,6 @@ batch-script, windows-optimizer, ram-cleaner, rammap, gaming-boost, disable-wind
 
 ## 👊 Support
 
-Like this tool? Give it a ⭐ and share it with your friends!
+Like this tool? Give it a ⭐ and share with friends!
 
 PRs, suggestions, or issues are always welcome. Let’s make Windows faster, together.
