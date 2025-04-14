@@ -1,4 +1,3 @@
-
 # ⚡ Windows RAM & Performance Optimizer | Clean, Kill, Boost
 
 > ⚠️ **Use at your own risk. For educational purposes only.**
@@ -18,6 +17,7 @@ Ideal for **low-end systems**, **older laptops**, or **performance-hungry gaming
 5. 🧼 The script will **unblock all files** and start the optimizer silently in the background.
 
 > 🛑 **If PowerShell scripts are restricted**, or you skipped the prompt, run this command once in PowerShell:
+>
 > ```powershell
 > Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 > ```
@@ -53,10 +53,18 @@ Ideal for **low-end systems**, **older laptops**, or **performance-hungry gaming
 
 ---
 
-## ⚙️ Manual Use (Alternative)
+## ⚙️🧠 Manual Mode (For Geeks & Power Users)
 
-1. 💾 Download [RAMMap64](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap) (optional).
-2. ✅ **Right-click** `clear_ram_loop.bat` or `run_invisible.vbs` and choose **Run as Administrator**.
+> 💡 Want full control like a true Windows ninja? Follow these steps manually:
+
+1. 💾 **Download [RAMMap64](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap)** (if it's not already included).
+2. 🔐 **Right-click** `clear_ram_loop.bat` **or** `run_invisible.vbs` and select **Run as Administrator**.
+3. 🛡️ **Optional:** If Windows Defender blocks the files, temporarily **pause real-time protection**:
+   - Defender often flags `.bat` or `.vbs` scripts by default — even safe ones like this.
+   - These scripts are clean and designed only to **boost performance**.
+4. ✅ You're good to go. The optimization loop begins instantly!
+
+🧪 Perfect for **tech-savvy users**, **gamers**, and **DIY tweakers** who want max control.
 
 ---
 
@@ -111,9 +119,7 @@ Or use the included `revert.bat` file (Run as Administrator).
 
 ## 🌟 Screenshots
 
-_Add before/after RAM usage screenshots here for better visual appeal._
-
----
+- ![Before and after ram cleaning](Capture.PNG)
 
 ## 💡 Tips
 
