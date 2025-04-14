@@ -41,7 +41,7 @@ Your folder should look like this:
 ## ⚙️ How to Use
 
 1. 📄 Clone or download this repository.
-2. 💾 Download (though it already included in repo but incase you want to check the genuineness) [RAMMap64](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap) and place it in the same folder.
+2. 💾 Download [RAMMap64](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap) (optional, as it's already included in the repository for convenience). However, if you'd like to verify its authenticity, feel free to download it directly from the official Microsoft Sysinternals site and place it in the same folder.
 3. ▶️ Double-click `run_invisible.vbs` for silent background execution.
 4. ✅ **Right-click** `clear_ram_loop.bat` or `.vbs` and select **Run as Administrator** _(IMPORTANT!)_
 
